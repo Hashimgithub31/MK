@@ -23,6 +23,10 @@ public class GreensTech {
 		System.out.println("Annanagar greens technology");
 	}
 	
+	private void name() {
+		System.out.println("green");
+	}
+	
 	public static void main(String[] args) {
 		
 		GreensTech g=new GreensTech();
@@ -31,6 +35,7 @@ public class GreensTech {
 		g.greensTambaram();
 		g.greensVelachery();
 		g.greensAnnanagar();
+		g.name();
 	}
 
 }
